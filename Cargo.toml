@@ -1,0 +1,12 @@
+[package]
+name = "droid_drawing"
+version = "0.0.1"
+authors = ["William Batista <bootlegbilly@protonmail.ch>"]
+edition = "2018"
+
+[dependencies]
+enigo = "0.0.14"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
