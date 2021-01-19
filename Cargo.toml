@@ -8,5 +8,7 @@ edition = "2018"
 enigo = "0.0.14"
 
 [profile.release]
+opt-level = 3
+target-cpu = "native"
 lto = "fat"
 codegen-units = 1
